@@ -1,6 +1,6 @@
 Programa Full Cycle de Aceleração - PFA - Desafio 1
 
-A aplicação é uma API que lista os módulos de um curso. Roda em container Docker, usando MySQL também em container.
+A aplicação é uma API que lista os módulos de um curso. Roda em container Docker, usando MySQL e NGINX, também em container.
 
 Para subir os containers, rode os seguintes comandos na sequência abaixo:
 
