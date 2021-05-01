@@ -13,6 +13,7 @@ Para subir os containers, rode os seguintes comandos na sequência abaixo:
 4.Para executar o nginx -> docker run -it --init -p 8080:80 --network=my-custom-net --name=nginx ilanacabral/nginx 
 
 5.No browser -> 
+
     Para listar todos os cursos : http://localhost:8080/modulos
     
     Para listar por id : http://localhost:8080/modulos/1
