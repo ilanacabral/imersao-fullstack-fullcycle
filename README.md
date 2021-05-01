@@ -4,8 +4,11 @@ A aplicação é uma API que lista os módulos de um curso. Roda em container Do
 
 Para subir os containers, rode os seguintes comandos na sequência abaixo:
 
-docker run -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=admin -it --init --network=my-custom-net mysql:latest
-docker run -it --init -p 8080:8080 --network=my-custom-net --name=myapp ilanacabral/osworks-api
+docker run -it --init -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=admin --network=my-custom-net mysql:5.7
+
+docker run -it --init --name=app --network=my-custom-net  ilanacabral/osworks-api
+
+docker run -it --init -p 8080:80 --name=nginx --network=my-custom-net ilanacabral/nginx 
 
 Para executar a aplicação em qualquer browser ou via Postman
 
