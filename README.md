@@ -14,5 +14,6 @@ Para subir os containers, rode os seguintes comandos na sequência abaixo:
 
 5.No browser -> 
     Para listar todos os cursos : http://localhost:8080/modulos
+    
     Para listar por id : http://localhost:8080/modulos/1
 
